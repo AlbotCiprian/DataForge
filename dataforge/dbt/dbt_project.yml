@@ -1,0 +1,22 @@
+name: 'dataforge'
+version: '1.0.0'
+config-version: 2
+
+profile: 'dataforge'
+
+model-paths: ['models']
+macro-paths: ['macros']
+analysis-paths: ['analyses']
+test-paths: ['tests']
+seed-paths: ['seeds']
+snapshot-paths: ['snapshots']
+clean-targets: ['target']
+
+models:
+  dataforge:
+    +materialized: table
+    staging:
+      +tags: ['staging']
+    marts:
+      +schema: marts
+

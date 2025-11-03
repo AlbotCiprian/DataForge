@@ -1,0 +1,7 @@
+apache-airflow-providers-amazon==9.1.0
+boto3==1.34.131
+snowflake-connector-python==3.10.1
+dbt-core==1.7.12
+dbt-snowflake==1.7.2
+requests==2.32.3
+

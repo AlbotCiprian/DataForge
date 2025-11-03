@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.tox/
+
+# Airflow
+airflow/logs/
+airflow/*.db
+airflow/airflow.cfg
+airflow/.env
+
+# dbt
+dbt/target/
+dbt/dbt_packages/
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+
+# Docker
+*.log
+**/.DS_Store
+.idea/
+.vscode/
+.env
+data/logs/
+data/raw/
+data/staging/
+
+# Node (if used for tooling)
+node_modules/
+

@@ -1,0 +1,8 @@
+[sqlfluff]
+dialect = snowflake
+templater = dbt
+exclude_rules = L009
+
+[sqlfluff:rules:L016]
+max_line_length = 100
+
